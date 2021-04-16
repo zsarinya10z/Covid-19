@@ -1,13 +1,5 @@
 # Covid-19
 
-package
-
-npm i axios
-npm i reactstrap
-npm i bootstrap
-npm i react-number-format
-end package
-
 Getting Started with Create React App
 This project was bootstrapped with Create React App.
 
