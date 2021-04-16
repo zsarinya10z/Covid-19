@@ -4,71 +4,63 @@
 .container-md,
 .container-sm,
 .container-xl {
-  width: 70%;
+  width: 40%;
   margin-right: auto;
   margin-left: auto;
   padding-top: 100px;
 }
-
-.card {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  min-width: 0;
-  word-wrap: break-word;
-  background-color: #fff;
-  background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 0.25rem;
+body {
+  background-image: url("https://www.cscestrie.on.ca/wp-content/uploads/2020/03/coronavirus-background.jpg");
 }
 
 .card-body {
-  flex: 1 1 auto;
+  flex: 1 auto;
   min-height: 1px;
-  padding: 3rem;
+  padding: 1rem;
 }
 
 .row {
   display: flex;
   flex-wrap: wrap;
-  margin-right: 10px;
-  margin-left: 10px;
-  margin-top: 30px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 15px;
 }
 
 .text-white {
-  color: #fff !important;
+  color: rgb(255, 255, 255) !important;
 }
 
 .col {
-  max-width: 100%;
-  margin-bottom: 30px;
+  max-width: 30%;
+  margin-bottom: 0px;
 }
 
 .h1,
 h1 {
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   text-align: center;
 }
 
 .bg-Confirmed {
-  background-color: #e2298e !important;
+  background-color: #86074d !important;
 }
 
 .bg-Recovered {
-  background-color: #045f34 !important;
+  background-color: #085833 !important;
 }
 
 .bg-Hospitalized {
-  background-color: #179b9d !important;
+  background-color: #e1e434 !important;
 }
 
 .bg-Deaths {
-  background-color: #666666 !important;
+  background-color: #ec0d0d !important;
 }
 
 .card-title {
-  margin-bottom: 0.75rem;
+  color: rgb(255, 255, 255);
+  margin-bottom: 0;
   text-align: center;
 }
 
